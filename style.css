@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;600&display=swap');
+
+:root {
+    --primary-color: red;
+    --gray-color: gray;
+    --offwhite-color:rgb(197, 189, 189);
+}
+
+body {
+    font-family: 'Nunito Sans', sans-serif;
+    margin: 0px;
+}
+
+/**conatainer*/
+hr{
+    
+}
+.container {
+
+    padding: 0rem 1rem;
+}
+
+.container-center {
+    margin: auto;
+    max-width: 600px;
+}
+
+/*links*/
+.link {
+    text-decoration: none;
+    padding: 0rem 1rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.primary-link {
+    background-color: var(--primary-color);
+    border-radius: 0.5rem;
+    color: white;
+}
+
+.secondary-link {
+    color: var(--primary-color);
+    border-radius: 0.5rem;
+    border: 1px solid var(--primary-color);
+}
+
+.list-non-bullets {
+    list-style: none;
+}
+
+.inline-item {
+    display: inline;
+    padding: 0rem 0.5rem;
+}
+
+/**navigation:*/
+.navigation {
+    background-color: var(--primary-color);
+    color: white;
+    padding: 1rem;
+    border-bottom-left-radius: 1rem;
+}
+}
+
+.navigation .link {
+    color: white;
+}
+
+.navigation .nav-pills {
+    text-align: right;
+}
+
+.navigation .nav-brand {
+    font-weight: bold;
+    font-size: 3rem;
+}
+
+.navigation .link-active {
+    font-weight: bolder;
+}
+
+/*Header*/
+.hero {
+    padding: 2rem;
+}
+
+.hero .hero-img {
+    display: block;
+    margin: auto;
+    max-width: 350px;
+}
+
+.hero .hero-heading {
+    color: var(--gray-color);
+    padding-top: 1rem;
+    text-align: center;
+}
+
+.hero .hero-heading .header-inverted {
+    color: var(--primary-color);
+}
+
+/*section*/
+.section{
+    padding: 2rem;
+    text-align: center;
+}
+.section h1 {
+    text-align: center;
+}
+.ow{
+    background-color: var(--offwhite-color);
+}
+/*footer*/
+.footer{
+    background-color: var(--primary-color);
+    padding: 2rem 1rem;
+    color: white;
+    border-top-right-radius: 1rem;
+    text-align: center;
+}
+.footer .footer-header{
+    font-size: large;
+    font-weight: bold;
+}
+.footer .link{
+    color: white;
+}
+.footer ul{
+    padding-inline-start: 0px;
+}
